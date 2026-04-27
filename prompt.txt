@@ -1,0 +1,10 @@
+collectors.py에 get_supply_data(code) 함수를 추가해줘.
+네이버 금융에서 특정 종목의 외국인/기관 매매 동향을 가져와줘. URL: https://finance.naver.com/item/frgn.naver?code={code} Referer 헤더를 넣어줘.
+가져올 정보:
+•	날짜
+•	외국인 순매수량
+•	기관 순매수량
+•	외국인 보유율 (%)
+최근 5일 데이터를 가져와서:
+•	외국인 5일 누적 순매수
+•	기관 5일 누적 순매수 를 계산해줘.

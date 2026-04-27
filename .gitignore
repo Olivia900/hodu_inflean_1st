@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# 로컬 실행 산출물
+*.log
+
+# Claude Code 로컬 설정
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
